@@ -3,11 +3,13 @@ body {
 }
 
 .content-container {
-	display: flex;
 	margin-left: auto;
 	margin-right: auto;
+	display: flex;
 	max-width: 64rem;
 	flex-directiton: column;
+	gap: 1rem;
+	min-width: 800px;
 }
 
 .center-megono {
@@ -24,8 +26,25 @@ body {
 	border-radius : 50%;
 }
 
+.megono {
+	margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    flex-direction: column;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    text-align: center;
+}
+
+.megono p {
+	color: white;
+}
+
 .nama-megono {
-	font-family : "Courir";
-	font-size : 36px;
-	color : white;
+	color: white;
+	font-size: 2.25rem;
+    line-height: 0.5rem;
 }
