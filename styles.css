@@ -1,50 +1,171 @@
+/* 
+* Author :virusphp
+* Email : packercyber@gmail.com
+*/
+
 body {
 	background-color: purple;
+	font-family: 'Courier New', Courier, monospace;
 }
 
-.content-container {
+/* footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	margin-top: 25px;
+}
+
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
+} */
+
+.footer-megono {
+	background-color: antiquewhite;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+	text-decoration: none;
+	padding: 1rem;
+	bottom: 0;
+	font: bold 16px 'Courier New';
+}
+
+.container {
 	margin-left: auto;
 	margin-right: auto;
 	display: flex;
 	max-width: 64rem;
-	flex-directiton: column;
+	flex-direction: column;
 	gap: 1rem;
 	min-width: 800px;
 }
 
-.center-megono {
+.center {
 	display : flex;
 	justify-content: center;
-}
-
-.content-megono {
-	display : flex;
-	justify-content: center;
+	text-align: center;
 }
 
 .img-rounded {
 	border-radius : 50%;
 }
 
-.megono {
+.mx-auto {
 	margin-left: auto;
     margin-right: auto;
-    display: flex;
+}
+
+.mt-2 {
+	margin-top: 2px;
+}
+
+.mb-2 {
+	margin-bottom: 2px;
+}
+
+.my-auto {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.shadow-xl {
+	-moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+	box-shadow: 10px 10px 5px ;
+}
+
+.card {
+	background-color: white;
+}
+
+.card-radius-10 {
+	border: 1px solid white;
+	border-radius: 10px;
+}
+
+.flex-c {
+	display: flex;
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
     flex-direction: column;
-    padding-left: 4rem;
-    padding-right: 4rem;
-    text-align: center;
 }
 
-.megono p {
-	color: white;
+.flex-r {
+	display: flex;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    flex-direction: row;
 }
 
-.nama-megono {
-	color: white;
+.profil {
+	color: rgb(2, 7, 8);
+}
+
+.text-2 {
 	font-size: 2.25rem;
-    line-height: 0.5rem;
+    line-height: 0.2rem;
+}
+
+.text-5 {
+	font-size: 1.2rem;
+}
+
+.flex-left {
+	justify-content: flex-start;
+	padding: 2rem;
+	line-height: 2rem;
+}
+
+.item-center {
+	justify-content: center;
+	align-items: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+.flex-left-25 {
+	flex-basis: 25%;
+}
+
+.flex-left-75 {
+	flex-basis: 75%;
+}
+
+.flex-right {
+	justify-content: flex-end;
+	padding: 2rem;
+	line-height: 2rem;
+}
+
+.text-header {
+	font-size: 2rem;
+	font-weight: 800;
+}
+
+.text-sub-header {
+	font-size: 1.25rem;
+	font-weight: 800;
+}
+
+.text-sub-content {
+	font-size: 0.75rem;
+}
+
+.text-content {
+	font-size: 1rem;
 }
